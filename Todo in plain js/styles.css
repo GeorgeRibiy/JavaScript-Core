@@ -1,0 +1,33 @@
+body * {
+    margin: 0 auto;
+}
+body {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding-left: 0;
+}
+ul li {
+    margin: 5px 0;
+}
+.inputs-block {
+    width: 30%;
+    margin-top: 7px;
+}
+.wrapper {
+    width: 50%;
+}
+.list-item-wrapper {
+    display: inline-block;
+}
+.button-delete {
+    margin-left: 5px;
+    float: right;
+    background: #fff;
+    outline: none;
+}
