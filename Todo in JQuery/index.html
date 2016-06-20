@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery Todo list</title>
+    <script type="text/javascript" src="./js/vendor/jquery-3.0.0.js"></script>
+    <link rel="stylesheet" href="./styles/vendor/bootstrap.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="col-md-8 center-block no-float" id="wrapper">
+        <h1>Todo List: </h1>
+        <div class="col-md-9 no-float" id="inputs-block">
+            <input type="text" id="todo-input" placeholder=""/>
+            <button id="button-item-add">Add new item</button>
+        </div>
+        <ul class="col-md-5 no-float no-padding" id="todo-list">
+            <!-- Todos goes here: -->
+        </ul>
+        <div class="col-md-5 no-float no-padding" id="storage-container">
+            <h3>Local storage</h3>
+            <ul class="col-md-6" id="key">
+                
+            </ul>
+            <ul class="col-md-6" id="value">
+                
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/itemManager.js"></script>
+    <script type="text/javascript" src="./js/validator.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
